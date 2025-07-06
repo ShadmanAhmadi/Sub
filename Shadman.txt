@@ -1,3 +1,4 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSeHhUWExrQ0V2TG8%3D@2.56.172.91:443#EVA_SRB
 trojan://Aimer@188.164.159.234:2083?path=%2F&security=tls&host=epml.ambercc.filegear-sg.me&type=ws&sni=epml.ambercc.filegear-sg.me#AM_speednode_0001
 trojan://trojan@109.234.211.66:8443?path=%2F&security=tls&host=store.timimi.dpdns.org&type=ws&sni=store.timimi.dpdns.org#ES_speednode_0025
 vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.16.213.195:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#Telegram

@@ -1,3 +1,4 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.106.151:48172#javad
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gin.mxtn.net:21622?security=tls&insecure=0&mport=21001-21999#%E5%8D%B0%E5%BA%A61
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gin.mxtn.net:21257?security=tls&insecure=0&mport=21001-21999#%E5%8D%B0%E5%BA%A62
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gsg.mxtn.net:21098?security=tls&insecure=0&mport=21001-21999#%E6%96%B0%E5%8A%A0%E5%9D%A12

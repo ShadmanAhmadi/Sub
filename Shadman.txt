@@ -1,4 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.106.151:48172#javad
+vless://388f8384-578e-4134-9d81-a0577570bfad@209.38.163.209:2083?mode=gun&security=reality&encryption=none&pbk=dxp3eTS_Gl7Ah_yY-S7_YUO9VWb28pHXPya1H-xfpgU&fp=chrome&spx=%2F&type=grpc&serviceName=Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY%20Tel%3A%40VPN_KING_V2RAY&sni=io.co&sid=f6acf3d6#javad
+vless://9d461095-0902-4999-a32f-b14146236f1b@[::ffff:5b63:7ddf]:2002?mode=gun&security=reality&encryption=none&pbk=b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc&fp=firefox&type=grpc&sni=tgju.org&sid=adf8a1f5689177a2#javad
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gin.mxtn.net:21622?security=tls&insecure=0&mport=21001-21999#%E5%8D%B0%E5%BA%A61
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gin.mxtn.net:21257?security=tls&insecure=0&mport=21001-21999#%E5%8D%B0%E5%BA%A62
 hysteria2://dc8f12af-3e2e-4b55-aa1c-96f76c51ff24@gsg.mxtn.net:21098?security=tls&insecure=0&mport=21001-21999#%E6%96%B0%E5%8A%A0%E5%9D%A12

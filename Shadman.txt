@@ -1,4 +1,4 @@
-vless://75fde681-ec64-4654-86fa-30732e8e179c@62.3.12.185:443?path=%2F&security=tls&alpn=h3&encryption=none&host=nginx-z.pages.dev&type=ws&sni=NGINX-Z.pages.DEV#%D9%87%DB%8C%DA%86%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%D9%BE%DB%8C%D9%86%DA%AF%20%D9%85%D9%86%D9%88%20%D9%86%D9%85%DB%8C%D8%B2%D9%86%D9%87%20%F0%9F%98%9D
+vless://75fde681-ec64-4654-86fa-30732e8e179c@62.3.12.185:443?path=%2F&security=tls&alpn=h3&encryption=none&host=nginx-z.pages.dev&type=ws&sni=NGINX-Z.pages.DEV#%D8%B3%D8%B1%D8%B9%D8%AA%20%D9%85%D8%AD%D9%88%D8%B1
 hysteria2://5f28011e-4925-4171-a6a7-3fda238419b8@sg.redbean.pro:21932?security=tls&insecure=0&mport=21001-21999#%E6%96%B0%E5%8A%A0%E5%9D%A12
 hysteria2://5f28011e-4925-4171-a6a7-3fda238419b8@sg.redbean.pro:21987?security=tls&insecure=0&mport=21001-21999#%E6%96%B0%E5%8A%A0%E5%9D%A11
 hysteria2://5f28011e-4925-4171-a6a7-3fda238419b8@us.redbean.pro:21108?security=tls&insecure=0&mport=21001-21999#%E7%BE%8E%E5%9B%BD2

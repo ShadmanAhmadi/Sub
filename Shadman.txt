@@ -1,3 +1,124 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ],
+    "tag": "dns_out"
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "domain": [
+          "regexp:.*\\.ir",
+          "domain:ir",
+          "geosite:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:ir",
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  },
+  "policy": {
+    "system": {
+      "statsOutboundDownlink": true,
+      "statsOutboundUplink": true
+    }
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🇹🇷 TR-01 (u1019909s3686051p69) [vless - tcp]",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.232.120.2",
+            "port": 443,
+            "users": [
+              {
+                "id": "db16d4f2-3b5d-f423-f10f-3d114f1bfa43",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "speed.cloudflare.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA",
+          "shortId": "",
+          "spiderX": ""
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "stats": {},
+  "remarks": "🇹🇷 TR-01 (u1019909s3686051p69) [vless - tcp]"
+}
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WVdRM1kyVXhPR1EyTVRrellUVTBNUT09Ok9UWmpZMkZoT1RJdFpqUTROeTAwTmc9PQ%3D%3D@yume-zz.legeth.xyz:10001#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF1
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WVdRM1kyVXhPR1EyTVRrellUVTBNUT09Ok9UWmpZMkZoT1RJdFpqUTROeTAwTmc9PQ%3D%3D@yume-zz.legeth.xyz:10015#%F0%9F%87%B0%F0%9F%87%AD%20%E6%9F%AC%E5%9F%94%E5%AF%A83
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WVdRM1kyVXhPR1EyTVRrellUVTBNUT09Ok9UWmpZMkZoT1RJdFpqUTROeTAwTmc9PQ%3D%3D@yume-zz.legeth.xyz:10019#%F0%9F%87%B5%F0%9F%87%AD%20%E8%8F%B2%E5%BE%8B%E5%AE%BE1
